@@ -211,21 +211,6 @@ const FlightBooking = () => {
                         </select>
                     </SelectContainer>
                     <SelectContainer>
-                        <SelectLabel htmlFor="sortBy">Sort by</SelectLabel>
-                        <select
-                            id="sortBy"
-                            value={sortBy}
-                            onChange={(e) => setSortBy(e.target.value)}
-                        >
-                            <option value="price">Price</option>
-                            <option value="duration">Duration</option>
-                            <option value="departureTime">
-                                Departure Time
-                            </option>
-                            <option value="arrivalTime">Arrival Time</option>
-                        </select>
-                    </SelectContainer>
-                    <SelectContainer>
                         <input
                             id="directOnly"
                             type="checkbox"
